@@ -28,7 +28,7 @@
   </parent>
   <groupId>com.vaadin</groupId>
   <artifactId>vaadin-maven-plugin</artifactId>
-  <version>8.1-SNAPSHOT</version>
+  <version>8.1-update_theme_mod</version>
   <packaging>maven-plugin</packaging>
   <name>Vaadin Plug-in for Maven</name>
   <description>
@@ -684,7 +684,7 @@
       <plugin>
         <groupId>org.codehaus.plexus</groupId>
         <artifactId>plexus-component-metadata</artifactId>
-        <version>1.5.5</version>
+        <version>1.7.1</version>
         <executions>
           <execution>
             <goals>

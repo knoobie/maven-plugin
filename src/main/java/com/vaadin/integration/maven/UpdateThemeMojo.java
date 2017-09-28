@@ -17,7 +17,7 @@ import org.codehaus.mojo.gwt.shell.JavaCommandException;
  */
 @Mojo(name = "update-theme", defaultPhase = LifecyclePhase.GENERATE_SOURCES, requiresDependencyResolution = ResolutionScope.COMPILE)
 public class UpdateThemeMojo extends AbstractThemeMojo {
-    public static final String THEME_UPDATE_CLASS = "com.vaadin.server.themeutils.SASSAddonImportFileCreator";
+    public static final String THEME_UPDATE_CLASS = "com.vaadin.themeutils.SASSAddonImportFileCreator";
 
     @Override
     protected void checkVaadinVersion() throws MojoExecutionException {
